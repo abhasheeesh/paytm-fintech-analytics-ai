@@ -87,6 +87,16 @@ For example, `monthly_income_inr` is clearly relevant for assessing repayment ca
 
 For this reason, I would not allow the model to make completely automatic final decisions for every applicant. A maker-checker or human-review process should be used particularly for declined thin-file applicants. In addition, the model should be subject to periodic fairness audits, subgroup performance monitoring, and logging of manual overrides. The objective should not just be to maximize predictive accuracy, but to ensure that the model's errors are understood and that applicants are not systematically disadvantaged because of variables acting as hidden proxies.
 
+## Final Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1 | ROC-AUC | Anomaly Recall |
+|---|---:|---:|---:|---:|---:|---:|
+| Logistic Regression | 76.0% | 38.9% | 35.0% | 36.8% | 71.9% | — |
+| Decision Tree | 67.0% | 24.0% | 30.0% | 26.7% | 53.1% | — |
+| Isolation Forest | — | — | — | — | — | 73.33% |
+
+Isolation Forest is evaluated separately because it performs unsupervised behavioural anomaly detection rather than applicant default classification. Its recall represents detection of 11 of the 15 deliberately injected anomalies.
+
 ## Final Model Recommendation
 
 I would choose Logistic Regression as the primary credit-risk classifier for this use case. It performed better than the Decision Tree across almost every important metric, with 76.0% accuracy compared with 67.0%, a higher F1 score of 36.8% versus 26.7%, and a substantially stronger ROC-AUC of 71.9% compared with 53.1%. Its recall is still only 35.0%, so I would not treat the model as sufficient for fully automated lending decisions, especially when missing an actual defaulter can be costly. The Isolation Forest also adds value on the fraud side by identifying 11 of the 15 deliberately injected anomalies, giving recall of 73.33%, so I would use it as a separate behavioural-risk flag rather than as a replacement for the credit classifier.
