@@ -80,6 +80,10 @@ Generate the fixed data using:
 cd credit_risk_lending_ml
 python generate_data.py
 ```
+Then run the complete modelling and anomaly-detection pipeline:
+
+```bash
+python credit_risk_modeling.py
 
 The analysis covers thin-file handling, leakage-safe preprocessing, Logistic Regression, Decision Tree classification, risk-based pricing, Isolation Forest anomaly detection, and model-governance considerations.
 
