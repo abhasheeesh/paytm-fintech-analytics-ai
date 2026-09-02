@@ -1,0 +1,11 @@
+merchant_id,merchant_name,transaction_count,chargeback_count,chargeback_ratio,flag
+16,Merchant_016,20,0,0.0,OK
+29,Merchant_029,19,3,0.15789473684210525,FLAG >1%
+37,Merchant_037,19,1,0.05263157894736842,FLAG >1%
+9,Merchant_009,18,0,0.0,OK
+3,Merchant_003,17,1,0.058823529411764705,FLAG >1%
+25,Merchant_025,17,1,0.058823529411764705,FLAG >1%
+30,Merchant_030,17,0,0.0,OK
+7,Merchant_007,16,1,0.0625,FLAG >1%
+8,Merchant_008,16,1,0.0625,FLAG >1%
+22,Merchant_022,16,0,0.0,OK

@@ -1,0 +1,11 @@
+transaction_id,user_id,merchant_id,amount_inr,payment_method,status,risk_score
+TXN200004,355,19,4999.0,Card,chargeback,100
+TXN100156,21,20,2999.0,UPI,captured,100
+TXN200007,358,36,999.0,Card,chargeback,100
+TXN100436,330,25,799.0,UPI,captured,100
+TXN100498,154,31,499.0,Wallet,captured,100
+TXN100003,92,22,49.0,Netbanking,captured,100
+TXN100389,19,26,49.0,UPI,captured,100
+TXN100029,3,7,1499.0,UPI,captured,99
+TXN100289,330,12,1499.0,Netbanking,captured,99
+TXN100324,177,9,99.0,UPI,captured,99

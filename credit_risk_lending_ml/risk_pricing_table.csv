@@ -1,0 +1,5 @@
+risk_tier,applicants,mean_predicted_pd,observed_default_rate,illustrative_interest_rate
+Low,25,0.020138646332236453,0.08,9%–11%
+Moderate,25,0.07292806217964994,0.12,12%–14%
+High,25,0.23361301387135097,0.2,15%–18%
+Very High,25,0.5869932882133633,0.4,19%–24%

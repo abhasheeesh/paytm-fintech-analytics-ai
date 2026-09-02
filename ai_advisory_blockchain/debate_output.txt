@@ -1,0 +1,5 @@
+Bull view: PAYTECH has an illustrative analyst expected return of 19.0%. With beta 1.55, it offers meaningful upside for an investor willing to accept above-market systematic risk.
+
+Bear view: PAYTECH carries a standard deviation of 34.0% and a beta of 1.55. That level of volatility means potential returns come with substantial downside risk.
+
+Synthesis: The case for PAYTECH combines higher return potential with materially higher volatility and systematic risk. The asset may fit an aggressive portfolio, but the risk highlighted by the bear case should prevent the expected-return figure from being considered in isolation.

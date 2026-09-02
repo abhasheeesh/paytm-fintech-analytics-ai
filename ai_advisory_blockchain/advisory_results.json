@@ -1,0 +1,97 @@
+[
+  {
+    "investor_id": "INV01",
+    "risk_tolerance": "Conservative",
+    "tickers": [
+      "PAYBOND",
+      "PAYGOLD",
+      "PAYRETAIL"
+    ],
+    "weights": {
+      "PAYBOND": 0.3333333333333333,
+      "PAYGOLD": 0.3333333333333333,
+      "PAYRETAIL": 0.3333333333333333
+    },
+    "portfolio_expected_return": 0.092,
+    "portfolio_variance": 0.0071222222222222225,
+    "portfolio_std": 0.08439325934114775,
+    "status": "FINALIZED",
+    "narrative": "For Conservative investor INV01, we recommend an equal allocation across PAYBOND, PAYGOLD, PAYRETAIL, with an expected CAPM portfolio return of 9.2% and volatility of 8.4%. Decision status: FINALIZED."
+  },
+  {
+    "investor_id": "INV02",
+    "risk_tolerance": "Moderate",
+    "tickers": [
+      "PAYRETAIL",
+      "PAYINFRA",
+      "PAYGOLD"
+    ],
+    "weights": {
+      "PAYRETAIL": 0.3333333333333333,
+      "PAYINFRA": 0.3333333333333333,
+      "PAYGOLD": 0.3333333333333333
+    },
+    "portfolio_expected_return": 0.113,
+    "portfolio_variance": 0.015802222222222224,
+    "portfolio_std": 0.12570689011435382,
+    "status": "FINALIZED",
+    "narrative": "For Moderate investor INV02, we recommend an equal allocation across PAYRETAIL, PAYINFRA, PAYGOLD, with an expected CAPM portfolio return of 11.3% and volatility of 12.6%. Decision status: FINALIZED."
+  },
+  {
+    "investor_id": "INV03",
+    "risk_tolerance": "Aggressive",
+    "tickers": [
+      "PAYTECH",
+      "PAYFIN",
+      "PAYINFRA"
+    ],
+    "weights": {
+      "PAYTECH": 0.3333333333333333,
+      "PAYFIN": 0.3333333333333333,
+      "PAYINFRA": 0.3333333333333333
+    },
+    "portfolio_expected_return": 0.15000000000000002,
+    "portfolio_variance": 0.04237333333333334,
+    "portfolio_std": 0.2058478402445198,
+    "status": "ESCALATED_TO_HUMAN_ADVISOR",
+    "narrative": "For Aggressive investor INV03, we recommend an equal allocation across PAYTECH, PAYFIN, PAYINFRA, with an expected CAPM portfolio return of 15.0% and volatility of 20.6%. Decision status: ESCALATED_TO_HUMAN_ADVISOR."
+  },
+  {
+    "investor_id": "INV04",
+    "risk_tolerance": "Moderate",
+    "tickers": [
+      "PAYRETAIL",
+      "PAYINFRA",
+      "PAYGOLD"
+    ],
+    "weights": {
+      "PAYRETAIL": 0.3333333333333333,
+      "PAYINFRA": 0.3333333333333333,
+      "PAYGOLD": 0.3333333333333333
+    },
+    "portfolio_expected_return": 0.113,
+    "portfolio_variance": 0.015802222222222224,
+    "portfolio_std": 0.12570689011435382,
+    "status": "FINALIZED",
+    "narrative": "For Moderate investor INV04, we recommend an equal allocation across PAYRETAIL, PAYINFRA, PAYGOLD, with an expected CAPM portfolio return of 11.3% and volatility of 12.6%. Decision status: FINALIZED."
+  },
+  {
+    "investor_id": "INV05",
+    "risk_tolerance": "Aggressive",
+    "tickers": [
+      "PAYTECH",
+      "PAYFIN",
+      "PAYINFRA"
+    ],
+    "weights": {
+      "PAYTECH": 0.3333333333333333,
+      "PAYFIN": 0.3333333333333333,
+      "PAYINFRA": 0.3333333333333333
+    },
+    "portfolio_expected_return": 0.15000000000000002,
+    "portfolio_variance": 0.04237333333333334,
+    "portfolio_std": 0.2058478402445198,
+    "status": "ESCALATED_TO_HUMAN_ADVISOR",
+    "narrative": "For Aggressive investor INV05, we recommend an equal allocation across PAYTECH, PAYFIN, PAYINFRA, with an expected CAPM portfolio return of 15.0% and volatility of 20.6%. Decision status: ESCALATED_TO_HUMAN_ADVISOR."
+  }
+]

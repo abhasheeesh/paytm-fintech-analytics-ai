@@ -1,0 +1,17 @@
+transaction_id,user_id_ledger,merchant_id_ledger,transaction_time_ledger,amount_inr_ledger,payment_method_ledger,status_ledger,risk_score_ledger,user_id_gateway,merchant_id_gateway,transaction_time_gateway,amount_inr_gateway,payment_method_gateway,status_gateway,risk_score_gateway,amount_difference_inr
+TXN100011,306,28,2026-01-09 01:06:00,2999,Card,failed,44,306,28,2026-01-09 01:06:00,2949,Card,failed,44,-50
+TXN100019,292,20,2026-01-24 05:39:00,49,UPI,captured,51,292,20,2026-01-24 05:39:00,99,UPI,captured,51,50
+TXN100039,79,14,2026-01-05 07:24:00,1499,UPI,captured,8,79,14,2026-01-05 07:24:00,1399,UPI,captured,8,-100
+TXN100204,59,18,2026-01-12 17:23:00,49,Card,captured,73,59,18,2026-01-12 17:23:00,-51,Card,captured,73,-100
+TXN100218,203,39,2026-01-10 01:14:00,49,UPI,captured,7,203,39,2026-01-10 01:14:00,-1,UPI,captured,7,-50
+TXN100252,340,26,2026-01-10 20:44:00,299,Card,captured,16,340,26,2026-01-10 20:44:00,349,Card,captured,16,50
+TXN100270,114,29,2026-01-27 13:05:00,799,UPI,chargeback,44,114,29,2026-01-27 13:05:00,899,UPI,chargeback,44,100
+TXN100278,123,27,2026-01-10 03:03:00,149,Netbanking,captured,81,123,27,2026-01-10 03:03:00,99,Netbanking,captured,81,-50
+TXN100284,260,36,2026-01-17 17:32:00,1499,UPI,captured,2,260,36,2026-01-17 17:32:00,1399,UPI,captured,2,-100
+TXN100286,183,5,2026-01-09 23:01:00,49,Card,captured,44,183,5,2026-01-09 23:01:00,149,Card,captured,44,100
+TXN100301,86,29,2026-01-20 22:27:00,149,Card,captured,44,86,29,2026-01-20 22:27:00,249,Card,captured,44,100
+TXN100380,276,18,2026-01-16 06:12:00,149,Wallet,captured,71,276,18,2026-01-16 06:12:00,249,Wallet,captured,71,100
+TXN100383,52,27,2026-01-21 07:03:00,499,Card,captured,42,52,27,2026-01-21 07:03:00,549,Card,captured,42,50
+TXN100393,140,13,2026-01-28 16:29:00,2999,UPI,captured,14,140,13,2026-01-28 16:29:00,3099,UPI,captured,14,100
+TXN100480,197,9,2026-01-29 17:21:00,49,Wallet,failed,88,197,9,2026-01-29 17:21:00,99,Wallet,failed,88,50
+TXN100494,199,6,2026-01-01 09:26:00,49,UPI,captured,92,199,6,2026-01-01 09:26:00,149,UPI,captured,92,100
